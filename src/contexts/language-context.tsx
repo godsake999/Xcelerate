@@ -47,8 +47,8 @@ export const content = {
         logout: 'Logout',
       },
       home: {
-        title: 'Welcome to FormulaSage',
-        subtitle: 'Master Excel with our curated collection of formulas, tips, and an AI-powered validator. Stop guessing, start calculating.',
+        title: 'Welcome to Xcelerate',
+        subtitle: 'Master Excel with our curated collection of formulas, tips, and tricks. Start calculating.',
         searchPlaceholder: "Search for formulas or tips (e.g., 'XLOOKUP', 'SUMIFS')",
         noResults: (term: string) => `No formulas found for "${term}".`,
       },
@@ -107,8 +107,8 @@ export const content = {
         logout: 'ထွက်ရန်',
       },
       home: {
-        title: 'FormulaSage မှကြိုဆိုပါတယ်',
-        subtitle: 'ကျွန်ုပ်တို့၏ ဖော်မြူလာများ၊ အကြံပြုချက်များနှင့် AI စွမ်းအင်သုံး စစ်ဆေးမှုများဖြင့် Excel ကိုကျွမ်းကျင်ပိုင်နိုင်စွာအသုံးပြုပါ။ ခန့်မှန်းခြင်းကိုရပ်ပြီး တွက်ချက်လိုက်ပါ။',
+        title: 'Xcelerate မှကြိုဆိုပါတယ်',
+        subtitle: 'ကျွန်ုပ်တို့၏ ဖော်မြူလာများနှင့် အကြံပြုချက်များဖြင့် Excel ကိုကျွမ်းကျင်ပိုင်နိုင်စွာအသုံးပြုပါ။ အခုပဲ စတင်တွက်ချက်လိုက်ပါ။',
         searchPlaceholder: "ဖော်မြူလာများ သို့မဟုတ် အကြံပြုချက်များရှာရန် (ဥပမာ 'XLOOKUP')",
         noResults: (term: string) => `"${term}" အတွက် ဖော်မြူလာများမတွေ့ပါ။`,
       },

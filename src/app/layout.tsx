@@ -7,7 +7,7 @@ import { FormulaProvider } from '@/contexts/formula-context';
 import { AuthProvider } from '@/contexts/auth-context';
 
 export const metadata: Metadata = {
-  title: 'FormulaSage',
+  title: 'Xcelerate',
   description: 'Excel formula explanations and tips',
 };
 
