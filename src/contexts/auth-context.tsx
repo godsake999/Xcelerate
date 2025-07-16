@@ -1,3 +1,4 @@
+
 'use client';
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
@@ -40,7 +41,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setUser(session?.user ?? null);
       setIsAdmin(session?.user?.email === adminEmail);
-      if (_event === 'SIGNED_IN') {
+      if (_event === 'SIGNED_IN' && window.location.pathname === '/login') {
         router.push('/');
       }
       if (_event === 'SIGNED_OUT') {
